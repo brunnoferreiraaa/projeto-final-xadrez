@@ -42,7 +42,6 @@ a{
     font-weight: normal;
 }
 
-
     
 .logo{
     font-size: 24px;
@@ -146,7 +145,6 @@ b{
 
 footer{
     bottom: 0;
-    position: fixed;
     width: 100%;
     text-align: center;
     background-color: var(--darkblue);
