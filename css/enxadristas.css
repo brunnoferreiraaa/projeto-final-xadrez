@@ -1,0 +1,134 @@
+/*Cabeçalho*/
+:root{  /*criando variáveis para as cores */
+    --cor-ciano: #00909E;
+    --cor-branco: #fff;
+    --cor-brancoFundo: #dae1e7;
+    --cor-azulEscuro: #142850;
+    --cor-preto: #000;
+    --cor-cinzClaro: #414141;
+    --cor-fundoDaTabela: rgb(161, 160, 224);
+    --cor-azulClaro: #1079a7;
+}
+
+*{ /* definindo margin e padding 0, para garantir que nenhum elemento herde características*/
+    margin: 0;
+    padding: 0;  
+} 
+
+body{ /* Definindo backgroud e fonte padrão*/
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: var(--cor-brancoFundo);
+   color: var(--cor-branco);
+}
+
+.header, .linksDoHeader{
+
+   display: flex; /* faz os itens se alinharem no modelo de flecha (row)*/
+   flex-direction: row;
+
+   align-items: center; /* faz eles se alinharem horizontalmente */
+}
+
+.header{ 
+
+    background-color: var(--cor-azulEscuro); /*Cor de fundo do cabeçalho*/
+    box-shadow: 1px 1px 4px var(--cor-ciano); /* sombra*/
+    height: 3,5em; /* Altura do cabeçalho, utilizamos em porque é uma medida relativa so tamanho da tela*/
+    /* 1em = 16px , por conta disso o cabeçalho se torna responsivo*/
+    justify-content: space-between; /*joga as divs para as extremidades direita e esquerda, */
+    padding: 0 10%; /* 0 ( top e bootom) 10% ( left e rigth) isso serviu para dar um espaço da borda direita e da esquerda*/
+    
+}
+
+.linksDoHeader{
+    gap: 3em; /* define um espaço entre os elementos*/
+    z-index: 2;/*mando para a camado 2, isso permitiu que ao clicar no botão, o fundo não estourasse*/
+}
+
+
+
+
+.barraVertical{ /* altura, largura e fcor de fundo da barra*/
+    height: 33.48px; 
+    background-color: var(--cor-branco);
+    width: 1px;
+}
+
+.linksDoHeader a{
+    text-decoration: none; /* tira o sublinhado*/
+    color: var(--cor-azulClaro); 
+    transition: 1s; /* 1 segundo para a transição quando passar o mouse*/
+    font-weight: bold; /* faz ficar em negrito*/
+}
+
+.linksDoHeader a:hover{
+    color: var(--color-white);
+}
+
+
+.conteudo{
+    padding-top: 5em; 
+    text-align: center;
+    height: 100vh;
+    transition: 1s; /* transição de 1s ao desfocar*/
+    color: #000;
+    height: 100%;
+}
+
+/*Parte Desktop feita*/ 
+
+.botaoAbrir-barraLateral, .botaoFechar-barraLateral{
+   display: none; /*faz os 2 botões desaparecerem Em primeira visualização, isso se deve porque não quere
+    mos que ele apareça para a versão desktop*/
+    background-color: transparent;
+    border: none;
+    color: var(--color-white); /*determina a cor branca para o svg*/
+    cursor: pointer;/* para ser mostrar que é algo clicável*/
+}
+
+@media screen and (max-width:768px) /* quando a largura for igual ou menor que 768 px aplica as seguintes configurações*/
+{
+    .linksDoHeader{
+        position: absolute;/* faz os links se posicionarem de acordo com a página, isso foi importante para depois tirá
+        - lo da tela e fazer a animação da barra lateral*/
+        flex-direction: column !important; /* faz os elementos se organizarem em coluna*/
+        background-color: var(--cor-azulEscuro);
+        top: 0; /* muda a posição lá para cima*/
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s; /* duração da animação*/
+        margin-left: -100vw; /* faz ele se posicionar para fora da tela*/
+    }
+    .botaoAbrir-barraLateral, .botaoFechar-barraLateral{
+        display: block;
+    }
+
+    .barraVertical{
+        display: none;
+    }
+    .invisiveis{
+       display: contents;
+    }
+}
+
+@keyframes AbrirBarraLateral {
+/* Quando a animação rodar, vai sair de -100vw(fora da tela) e ir para -10vw (dentro da tela), mostrando
+a barra lateral*/
+from {margin-left: -100vw;}
+to {margin-left: -10vw;}
+
+}
+
+/* footer*/
+.invisiveis{
+    display: none;
+    gap: 5em;
+}
+
+@media screen and (max-width:768px){
+    .invisiveis{
+        display: block;
+    }
+  
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,500;1,600&display=swap');
+
+:root{
+    --color-white: #fff;
+    --color-dark1: #dae1e7;
+    --color-dark2: #142850;
+    --color-dark3: #414141;
+    --color-dark4: #00909E;
+    --color-dark5: #343434;
+}
+*{  
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    
+}
+        footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-dark2);
+    height: 125px;
+    margin-top: 200px;
+}
+
+.div-footer{
+   padding-top: 20px;
+}
+
+#p-link{
+    color: var(--color-dark1);
+}
+
+ .link-footer{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size:0.9em;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+}
+
+.link-footer:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: rgba(221, 221, 29, 0.945);
+    text-transform: uppercase;
+}
+
+.img-footer{
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+
+.img-footer:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.link-image{
+    padding-right: 5px;
+    padding-left: 5px;
+}

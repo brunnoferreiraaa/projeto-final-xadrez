@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,500;1,600&display=swap');
+
+:root{
+    --color-white: #fff;
+    --color-dark1: #dae1e7;
+    --color-dark2: #142850;
+    --color-dark3: #414141;
+    --color-dark4: #00909E;
+    --color-dark5: #343434;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    background-color: var(--color-dark1);
+    
+    
+}
+
+h1, h2{
+    text-align: center;
+    color: var(--color-dark4);
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 3em;
+}
+
+hr{
+    color: #00909E;
+}
+#image-school{
+    height: 80%;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+}
+
+main{
+    max-width: 800px;
+    min-width: 270px;
+    margin: auto;
+}
+
+#image-school{
+    transform: none;
+}
+
+main p{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 700px;
+    margin: auto;
+}
+
+section{
+    width: 900px;
+    margin: auto;
+}
+article{
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.4em;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.img-cont{
+    margin-top: 30px;
+    height: 300px;
+}
+
+.info{
+    font-size: 1em;
+    color: var(--color-dark4);
+    padding: 0%;
+}
+
+.info:hover{
+    color: var(--color-dark4);
+    transition: 1s;
+}
+
+h2{
+    color: var(--color-dark4);
+    font-size: 2.2em;
+    margin: 30px 30px ;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 350px) {
+    main{
+        width: 250px;
+    }
+
+    h1,h2{
+        font-size: 1.5em;
+        text-align: left;
+        padding-left: 2px;
+        width: 260px;
+        padding-left: 10px;
+        width: 270px;
+    }
+
+
+    article{
+        width: 270px;
+        line-height: 1.3em;
+        text-align: justify;
+        padding-left: 20px;
+    }
+
+    hr{
+        width: 280px;
+        
+    }
+
+    main > p{
+        font-size: 0.9em;
+        line-height: 0.7em;
+        padding: 0px;
+        width: 270px;
+    }
+
+    .img-cont{
+        height: 150px;
+    }
+
+
+
+}
+
+@media  (min-width: 350px) and (max-width: 459px) {
+    main{
+        width: 350px;
+    }
+
+    h1,h2{
+        font-size: 1.5em;
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    .img-cont{
+        display: block;
+        margin: auto;
+        height: 150px;
+    }
+
+    main > p{
+        font-size: 0.8em;
+        line-height: 0.4em;
+        padding: 0px;
+        width: 300px;
+    }
+
+}
+
+@media  (min-width: 400px) and (max-width: 450px) {
+    main{
+        width: 400px;
+    }
+
+    h1,h2{
+        font-size: 1.6em;
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    section{
+        width: 370px;
+        margin: auto;
+    }
+    article{
+        font-family: 'Raleway',sans-serif;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .img-cont{
+        height: 200px;
+    }
+     main > div > p{
+        font-size: 1em;
+        line-height: 1.4em;
+        padding: 0px;
+        width: 350px;
+    }
+
+    footer{
+        height: 200px;
+    }
+    
+}
+.invisiveis{
+    display: none;
+    gap: 5em;
+   
+}
+
+@media  (min-width: 500px) and (max-width: 700px) {
+    main{
+        width: 450px;
+    }
+
+    h1,h2{
+        font-size: 1.6em;
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    section{
+        width: 370px;
+        margin: auto;
+    }
+    article{
+        font-family: 'Raleway',sans-serif;
+        font-size: 1em;
+        padding: 10px;
+        width: 420px;
+    }
+
+    .img-cont{
+        height: 200px;
+    }
+     main > div > p{
+        font-size: 1em;
+        line-height: 1.5em;
+        padding: 0px;
+        width: 400px;
+    }
+
+    footer{
+        height: 150px;
+    }
+    
+}
+.invisiveis{
+    display: none;
+    gap: 5em;
+   
+}
+
+
+@media screen and (max-width:768px){
+    .invisiveis{
+        display: block;
+       
+    }
+}
