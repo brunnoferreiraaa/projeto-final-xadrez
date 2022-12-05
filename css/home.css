@@ -694,7 +694,7 @@ footer{
 
     footer{
         height: 130px;
-        top: 3200px;
+        margin-top: 3200px;
     }
     
     .img-footer{
