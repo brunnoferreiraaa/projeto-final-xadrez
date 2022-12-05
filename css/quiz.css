@@ -163,7 +163,7 @@ nav{
 
 main{
     background-color: #DAE1E7;
-    height:400px;
+    height:450px;
 }
 
 .nav-list{
@@ -240,7 +240,6 @@ main{
 
 footer{
     bottom: 0;
-    position: fixed;
     width: 100%;
     text-align: center;
     background-color: var(--darkblue);
