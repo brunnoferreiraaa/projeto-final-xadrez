@@ -242,3 +242,14 @@ main{
         display: block;
     }
 }
+
+@media (min-width: 800px) and (max-width:1000px){
+    .title{
+        width: 790px;
+    }
+
+    .pure-table{
+        width: 650px;
+        font-size: 1em;
+    }
+}
