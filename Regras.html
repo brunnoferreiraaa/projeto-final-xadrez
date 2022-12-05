@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Regras</title>
+    <link rel="website icon" type="png"  href="/imagens/CavaloGuia.png" class="fotoguia">
+	<link rel="stylesheet" type="text/css" href="css/regras.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+	
+</head>
+<body>
+    <div class="header" id="header">  <!-- uma classe e um id para o header par ficar mais fácil de mexer no js-->
+           
+        <button onclick="MoverBarraLateral()" class="botaoAbrir-barraLateral"> <!-- botão de abrir barra lateral-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M5 4h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm0 6h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1zm6-6h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm0 6h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1zm6-6h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm0 6h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1zM5 16h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1zm6 0h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1zm6 0h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1z"></path></svg>            
+        </button>
+
+        <div class="logo"> 
+                    <a href="#"><img class="img-logo" src="/imagens/CavaloPrincipal.png" alt="erro"></a>
+            </div>
+
+            <div class="linksDoHeader" id="linksDoHeader">
+
+                <button onclick="MoverBarraLateral()" class="botaoFechar-barraLateral">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+                    
+                <a href="home.html"> Home </a>
+                <a href="Regras.html">Regras do Xadrez</a>
+                    <a href="index.html">Notícias</a>
+                    <div class="barraVertical"></div>
+                    <a href="redirecionamento.html">Redirecionamento</a>
+
+                    <div class="invisiveis">
+                    
+                        <a href="Beneficios.html"> Benefícios do Xadrez </a><br><br>
+                        <a href="Gm.html"> Como se Tornar Grande Mestre </a> <br><br>
+                        <a href="RatingDosMelhores.html"> Rating dos Melhores do Mundo </a><br><br>
+                        <a href="escolas.html"> Xadrez nas Escolas</a><br><br>
+                        <a href="Quiz.html"> Quiz </a>
+                    </div>
+            </div>
+
+    </div>
+    <main>
+        <br>
+		<h1>Regras</h1>
+		<b>O objetivo do jogo de xadrez é dar xeque-mate ao Rei adversário, ou seja, colocando-o sob ameaça de captura (xeque), sem que ele tenha como escapar desse xeque. Para isto, cada jogador dispõe de 16 peças, sendo: 
+        <div class="foo">1 Rei
+        1 Dama
+        2 Bispos
+        2 Cavalos
+        2 Torres
+        8 Peões
+    </div><br>
+
+
+    <b>Os movimentos são alternados, sendo que o enxadrista que detém as peças brancas sempre faz o primeiro lance. Nunca o enxadrista pode "passar a vez" ou deixar de realizar uma jogada.<br>
+
+    O objetivo secundário do jogo é proteger o seu próprio Rei, evitando que ele leve o xeque-mate. É proibido no xadrez colocar o próprio Rei em xeque, ou, quando em xeque, fazer outra jogada que não tirá-lo do xeque.</p>
+
+    </b><br>
+        <img src="imagens/20170508-xadrez.jpg" class="imagemdapagina">
+	
+</main>
+
+<footer>
+    <div class="div-footer">
+     <p id="p-link"> <a class="link-footer" href="form.html" target="_blank">Ajuda</a> | <a class="link-footer" href="#">Termos de xadrez</a> | <a class="link-footer" href="#">Desenvolvedores</a> | <a class="link-footer" href="#">Princípios editoriais</a> | <a class="link-footer" href="#">Política de privacidade</a> | <a class="link-footer" href="#">Trabalhe conosco</a>
+     </p>
+    </div>
+
+    <div class="div-footer">
+        <a  class="link-image"  href="https://instagram.com" target="_blank"><img class="img-footer" src="/imagens/logo-do-cone-do-instagram.png" alt="logo-instagram"></a>
+        <a  class="link-image" href="https://facebook.com" target="_blank"><img class="img-footer" src="imagens/logo-face.png"></a>
+        <a  class="link-image" href="https://twitter.com" target="_blank"><img  class="img-footer"src="/imagens/logo-twitters.png" alt="logo-twitter"></a>
+        <a  class="link-image" href="https://whatsapp.com" target="_blank"><img class="img-footer" src="imagens/logo-zap.png" alt="logo-whatsapp "></a>
+        <a  class="link-image" href="https://youtube.com" target="_blank"><img class="img-footer" src="/imagens/logo-youtube.png" alt="logo-youtube"></a>
+        <a  class="link-image" href="telegram.com" target="_blank"><img class="img-footer" src="imagens/logo-telegram.png" alt="logo-telegram"></a>
+    </div>
+    
+</footer>
+<script src="/javascript/3.js" defer></script>
+<script src="/javascript/Js.js" defer> </script>
+</body>
+</html>
