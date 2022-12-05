@@ -286,3 +286,423 @@ footer{
     padding-left: 5px;
 }
 
+@media (min-width:1000px) and (max-width:1200px){
+    .caixa-um{
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        left: 60px;
+        top: 180px;
+    }
+    .fonte-caixa-um {
+        position: absolute;
+        left: 4.33%;
+        right: 7.17%;
+        top: 6%;
+        bottom: 75.52%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #img-caixa-1{
+        left: 6%;
+        right: 47.85%;
+        top: 30%;
+        bottom: 61.75%;
+        width: 350px;
+        height: 250px;
+    }
+    
+    .caixa-dois{
+        position: absolute;
+        width: 430px;
+        height: 450px;
+        left: 510px;
+        right: 50px;
+        top: 180px;
+    }
+    .fonte-caixa-dois {
+        position: absolute;
+        left: 4.33%;
+        top: 6%;
+        bottom: 75.52%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #img-caixa-2{
+        left: 6%;
+        right: 47.85%;
+        top: 30%;
+        bottom: 61.75%;
+        width: 370px;
+        height: 270px;
+    }
+    
+    .caixa-tres{
+        position: absolute;
+        width: 400px;
+        height: 534px;
+        left: 70px;
+        top: 711px;
+    }
+    
+    .fonte-caixa-tres{
+        width: 370px;
+        height: 192px;
+        left: 4.37%;
+        top: 80px;
+    }
+    
+    h1{
+        position: absolute;
+        width: 390px;
+        height: 192px;
+        left: 10px;
+        top: 20px;
+        font-size: 25px;
+    }
+    
+    #img-caixa-3{
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        left: 20px;
+        top: 260px;
+        border-radius: 30px;
+    }
+
+    .caixa-quatro{
+        width: 420px;
+        height: 534px;
+        left: 510px;
+        top: 712px;
+    }
+    
+    .fonte-caixa-quatro{
+        width: 380px;
+        height: 138px;
+        left: 20px;
+        top: 40px;
+    }
+    
+    #img-caixa-4{
+        width: 370px;
+        height: 240px;
+        left: 25px;
+    }
+
+    .caixa-cinco{
+        width: 865px;
+        height: 337px;
+        left: 70px;
+        top: 1383px;
+    }
+    
+    .fonte-caixa-cinco{
+        width: 300px;
+        height: 276px;
+        left: 500px;
+        top: 28px;
+        text-align: justify;
+        font-size: 20px;
+        line-height: 25px;
+        
+    }
+    
+    #img-caixa-5{
+        width: 380px;
+        height: 280px;
+        left: 20px;
+        top: 30px;
+    }
+    
+}
+
+@media (min-width:800px) and (max-width:999px){
+    .caixa-um{
+        position: absolute;
+        width: 350px;
+        height: 430px;
+        left: 30px;
+        top: 180px;
+    }
+    .fonte-caixa-um {
+        position: absolute;
+        left: 4.33%;
+        right: 7.17%;
+        top: 6%;
+        bottom: 75.52%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #img-caixa-1{
+        left: 7%;
+        right: 47.85%;
+        top: 37%;
+        bottom: 61.75%;
+        width: 300px;
+        height: 220px;
+    }
+    
+    .caixa-dois{
+        position: absolute;
+        width: 350px;
+        height: 430px;
+        left: 420px;
+        right: 50px;
+        top: 180px;
+    }
+    .fonte-caixa-dois {
+        position: absolute;
+        left: 4.33%;
+        top: 6%;
+        bottom: 75.52%;
+        font-size: 16px;
+        line-height: 20px;
+        width: 320px;
+        height: 430px;
+    }
+
+    #img-caixa-2{
+        left: 4%;
+        right: 47.85%;
+        top: 33%;
+        bottom: 61.75%;
+        width: 320px;
+        height: 260px;
+    }
+    
+    .caixa-tres{
+        position: absolute;
+        width: 360px;
+        height: 500px;
+        left: 30px;
+        top: 711px;
+    }
+    
+    .fonte-caixa-tres{
+        width: 340px;
+        height: 192px;
+        left: 3%;
+        top: 80px;
+        font-size: 18px;
+    }
+    
+    h1{
+        position: absolute;
+        width: 350px;
+        height: 192px;
+        left: 7px;
+        top: 20px;
+        font-size: 22px;
+    }
+    
+    #img-caixa-3{
+        position: absolute;
+        width: 320px;
+        height: 220px;
+        left: 20px;
+        top: 260px;
+        border-radius: 30px;
+    }
+
+    .caixa-quatro{
+        width: 360px;
+        height: 500px;
+        left: 430px;
+        top: 712px;
+    }
+    
+    .fonte-caixa-quatro{
+        width: 340px;
+        height: 138px;
+        left: 10px;
+        top: 40px;
+        font-size: 18px;
+    }
+    
+    #img-caixa-4{
+        width: 320px;
+        height: 220px;
+        left: 25px;
+        top: 240px;
+    }
+
+    .caixa-cinco{
+        width: 765px;
+        height: 317px;
+        left: 40px;
+        top: 1300px;
+    }
+    
+    .fonte-caixa-cinco{
+        width: 300px;
+        height: 276px;
+        left: 420px;
+        top: 30px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 25px;
+        
+    }
+    
+    #img-caixa-5{
+        width: 340px;
+        height: 240px;
+        left: 20px;
+        top: 40px;
+    }
+    
+}
+
+@media  (max-width: 450px){
+    .caixa-um{
+        position: absolute;
+        width: 350px;
+        height: 430px;
+        left: 20px;
+        top: 180px;
+    }
+    .fonte-caixa-um {
+        position: absolute;
+        left: 4.33%;
+        right: 7.17%;
+        top: 6%;
+        bottom: 75.52%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #img-caixa-1{
+        left: 7%;
+        right: 47.85%;
+        top: 37%;
+        bottom: 61.75%;
+        width: 300px;
+        height: 220px;
+    }
+    
+    .caixa-dois{
+        position: absolute;
+        width: 350px;
+        height: 430px;
+        left: 20px;
+        right: 50px;
+        top: 680px;
+    }
+    .fonte-caixa-dois {
+        position: absolute;
+        left: 4.33%;
+        top: 6%;
+        bottom: 75.52%;
+        font-size: 16px;
+        line-height: 20px;
+        width: 320px;
+        height: 430px;
+    }
+
+    #img-caixa-2{
+        left: 4%;
+        right: 47.85%;
+        top: 33%;
+        bottom: 61.75%;
+        width: 320px;
+        height: 260px;
+    }
+    
+    .caixa-tres{
+        position: absolute;
+        width: 360px;
+        height: 500px;
+        left: 15px;
+        top: 1191px;
+    }
+    
+    .fonte-caixa-tres{
+        width: 340px;
+        height: 192px;
+        left: 3%;
+        top: 80px;
+        font-size: 18px;
+    }
+    
+    h1{
+        position: absolute;
+        width: 350px;
+        height: 192px;
+        left: 7px;
+        top: 20px;
+        font-size: 22px;
+    }
+    
+    #img-caixa-3{
+        position: absolute;
+        width: 320px;
+        height: 220px;
+        left: 20px;
+        top: 260px;
+        border-radius: 30px;
+    }
+
+    .caixa-quatro{
+        width: 360px;
+        height: 500px;
+        left: 15px;
+        top: 1800px;
+    }
+    
+    .fonte-caixa-quatro{
+        width: 340px;
+        height: 138px;
+        left: 10px;
+        top: 40px;
+        font-size: 18px;
+    }
+    
+    #img-caixa-4{
+        width: 320px;
+        height: 220px;
+        left: 25px;
+        top: 240px;
+    }
+
+    .caixa-cinco{
+        width: 360px;
+        height: 570px;
+        left: 15px;
+        top: 2400px;
+    }
+    
+    .fonte-caixa-cinco{
+        width: 300px;
+        left: 25px;
+        top: 30px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 25px;
+        
+    }
+    
+    #img-caixa-5{
+        width: 320px;
+        height: 240px;
+        left: 20px;
+        top: 300px;
+    }
+
+    footer{
+        height: 130px;
+        top: 3200px;
+    }
+    
+    .img-footer{
+        height: 25px;
+        width: 25px;
+    }
+    
+    .link-footer{
+        font-size: 0.8em;
+    }  
+}
