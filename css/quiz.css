@@ -241,6 +241,7 @@ main{
 footer{
     bottom: 0;
     width: 100%;
+    position:absolute;
     text-align: center;
     background-color: var(--darkblue);
     height: 80px;
