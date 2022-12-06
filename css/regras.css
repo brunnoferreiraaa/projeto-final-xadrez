@@ -118,6 +118,11 @@ b{
     .nav-list.active{
         transform: translateX(0);
     }
+	
+    #main-div{
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
 }
 
 @keyframes navLinkFade{
@@ -146,6 +151,7 @@ b{
 footer{
     bottom: 0;
     width: 100%;
+    position:absolute;
     text-align: center;
     background-color: var(--darkblue);
     height: 80px;
@@ -189,5 +195,10 @@ footer{
     .invisiveis{
         display: block;
        
+    }
+	
+    #main-div{
+	margin-left: 10px;
+	margin-right: 10px;
     }
 }
